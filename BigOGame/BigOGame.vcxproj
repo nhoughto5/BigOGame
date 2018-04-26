@@ -117,6 +117,8 @@
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="DataStructure.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +126,7 @@
     <ClInclude Include="Constants.h" />
     <ClInclude Include="DataStructure.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="DataStructures.txt" />

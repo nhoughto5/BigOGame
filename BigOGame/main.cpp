@@ -1,15 +1,8 @@
 #include <string>
 #include <iostream>
-class Test {
-public:
-    Test(std::string me) {
-        std::cout << me << "\n";
-    }
-};
+#include "Game.h"
+
 int main() {
-
-    Test t("Hello");
-
-
+    std::cout << "Hello\n";
     return 0;
 }

@@ -14,7 +14,7 @@ enum RunTime {
     nFactorial,
 };
 
-enum DataStructuresEnum {
+enum DataStructureEnum {
     Array,
     Stack,
     Queue,
@@ -31,7 +31,7 @@ enum DataStructuresEnum {
     KDTree,
 };
 
-enum AlgorithmsEnum {
+enum AlgorithmEnum {
     Quicksort,
     Mergesort,
     Timsort,
@@ -45,4 +45,4 @@ enum AlgorithmsEnum {
     RadixSort,
     CountingSort,
     Cubesort
-}
+};

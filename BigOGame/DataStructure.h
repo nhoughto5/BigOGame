@@ -1,7 +1,8 @@
 #pragma once
-#include <string>
+#include <unordered_map>
 #include <iostream>
 #include "Constants.h"
+
 class DataStructure
 {
 private:
@@ -10,7 +11,9 @@ private:
     RunTime spaceComplexity;
     std::string name;
 public:
-    DataStructure() = default;
+    DataStructure() {
+        std::cout << "DataStructure\n";
+    }
     DataStructure(std::string name, RunTime averageAccess, RunTime averageSearch, RunTime averageInsertion, RunTime averageDeletion, RunTime worstAccess, RunTime worstSearch, RunTime worstInsertion, RunTime worstDeletion, RunTime spaceComplexity);
     ~DataStructure();
 };
