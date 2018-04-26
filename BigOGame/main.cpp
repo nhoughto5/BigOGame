@@ -3,6 +3,8 @@
 #include "Game.h"
 
 int main() {
-    std::cout << "Hello\n";
+    Game g;
+    g.start();
+    std::cin.get();
     return 0;
 }

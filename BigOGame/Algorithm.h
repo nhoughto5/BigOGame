@@ -7,9 +7,7 @@ private:
     RunTime Best, Average, Worst, SpaceComplexity;
     std::string name;
 public:
-    Algorithm() {
-        std::cout << "Algorithm\n";
-    }
+    Algorithm() = default;
     Algorithm(std::string name, RunTime b, RunTime a, RunTime w, RunTime s);
     ~Algorithm();
 

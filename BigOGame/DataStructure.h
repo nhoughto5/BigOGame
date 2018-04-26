@@ -11,9 +11,7 @@ private:
     RunTime spaceComplexity;
     std::string name;
 public:
-    DataStructure() {
-        std::cout << "DataStructure\n";
-    }
+    DataStructure() = default;
     DataStructure(std::string name, RunTime averageAccess, RunTime averageSearch, RunTime averageInsertion, RunTime averageDeletion, RunTime worstAccess, RunTime worstSearch, RunTime worstInsertion, RunTime worstDeletion, RunTime spaceComplexity);
     ~DataStructure();
 };
